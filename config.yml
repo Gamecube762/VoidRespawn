@@ -1,0 +1,14 @@
+Settings:
+#if the player is below this number on the Y Axis, then they are teleported to spawn.
+    TeleportLevel: -1
+
+#Teleports them to a specific location if they fall into the void.
+#enabled: <true/false> if true, then teleport them to the location below. if false, then teleport them to world spawn
+#world: <worldname>  the name of the world to teleport them to (default is world)
+#X: <number> Y: <number> Z:<number> Cordinants to teleport them to.
+    TeleportSpecific:
+        enabled: false
+        world: world
+        X: 0
+        Y: 70
+        Z: 0
